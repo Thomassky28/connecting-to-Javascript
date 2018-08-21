@@ -11,8 +11,19 @@ let knex = require ('knex')({
   ssl      : settings.ssl
  }
 });
+
+var args = process.argv.slice(2)
+var first_nameame1 = args[0]
+var last_name1 = args[1]
+var birthdate1 = args[2]
+
+
 knex('famous_people')
-  .insert({id: '8', first_name: 'Shawshank', last_name:'Redemption', birthdate: '2000-02-12'})
+  .insert({
+    first_name: first_nameame1,
+    last_name: last_name1,
+    birthdate: birthdate1
+  })
   .returning('*')
   .asCallback((err, rows) => {
 console.log(rows);
