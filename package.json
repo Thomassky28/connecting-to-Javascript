@@ -1,0 +1,23 @@
+{
+  "name": "connecting-to-Javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomassky28/connecting-to-Javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomassky28/connecting-to-Javascript/issues"
+  },
+  "homepage": "https://github.com/Thomassky28/connecting-to-Javascript#readme",
+  "dependencies": {
+    "pg": "^7.4.3"
+  }
+}
